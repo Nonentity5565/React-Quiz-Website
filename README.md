@@ -6,3 +6,5 @@ Quiz questions were obtained from [Trivia API](https://the-trivia-api.com/docs/#
 To Do:
 - Refactor code
 - Fix Styling
+- Add correct question count
+- Add question filters (optional)
