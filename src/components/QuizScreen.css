@@ -1,0 +1,24 @@
+.quiz-con {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset-btn {
+    font-family: Inter;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 2px solid #4D5B9E;
+    color: #F5F7FB;
+    background-color: #4D5B9E;
+    margin-top: 29px;
+}
+
+.reset-btn:hover {
+    cursor: pointer;
+}
+

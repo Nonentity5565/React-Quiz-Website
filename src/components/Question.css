@@ -1,0 +1,36 @@
+.question-con {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 80vw;
+}
+
+.question-text {
+    font-size: 2rem;
+}
+
+.question-con button {
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.normal-btn {
+    border: solid 1px #293264;
+}
+
+.normal-btn:disabled {
+    color: #4D5B9E;
+    border: solid 1px #4D5B9E;
+     
+}
+.correct-btn {
+    border: none;
+    background-color: #94D7A2;
+}
+
+.incorrect-btn {
+    border: none;
+    background-color: #F8BCBC;
+}
