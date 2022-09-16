@@ -1,0 +1,45 @@
+.start-screen-con {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-screen-con h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    margin: 7px;
+    padding: 0;
+}
+
+.start-screen-con p {
+    font-family: Inter;
+    font-size: 1.5rem;
+
+}
+
+.start-screen-con button {
+    font-family: Inter;
+    font-size: 1.5rem;
+    padding: 15px 55px;
+    border-radius: 15px;
+    border: 2px solid #4D5B9E;
+    color: #F5F7FB;
+    background-color: #4D5B9E;
+    margin-top: 29px;
+}
+
+.start-screen-con button:hover {
+    cursor: pointer;
+}
+
+.start-screen-con a:visited {
+    color: #293264;
+}
+
+.start-screen-con a:active, a:hover {
+    color: #293264;
+    font-weight: bold;
+}
